@@ -1,8 +1,8 @@
 # Neural Networks for Low Level Image Processing
 
-Until recently, machine learning(ML) or neural network(NN) are mainly used in high level vision tasks, such as image segmentation, object recognition and detection. Low level image processing such as denoising, demosaicing, white balance still mainly reply on signal processing filtering based methods. For mobile platform, there are usually a long list of filters in the whole processing pipeline which is run on a dedicated ISP chip. In the past one or two years, there are two new trends. One of the trend is that in academic world, more and more researchers have made a lot of attempts to apply NN for low level image processing and achieved fascinating performance in term of image quality. The other trend is that neural network chip becomes more and more popular at various mobile platform, such as the latest Apple A11 Bionic chip and Huawei Kirin 970 chip. I believe in the near further, some of the low level image processing tasks will be done by NN chips. Also some ISP chip may include a NN unit.
+Until recently, machine learning (ML) or neural networks (NN) are mainly used in high level vision tasks, such as image segmentation, object recognition and detection. Low level image processing such as denoising, demosaicing, white balance still mainly rely on signal processing based methods which uses expert designed filters. There are usually a long list of filters in the whole processing pipeline which is run on a dedicated ISP chip. In the past one or two years, there are two new trends. One trend is that more and more researchers propose to apply NN for low level image processing and achieved fascinating performance in term of image quality and processing speed. The other trend is that neural network chip becomes more and more popular at various mobile platform, such as the latest Apple A11 Bionic chip and Huawei Kirin 970 chip. I believe in the near further, NN based methods will play important roles at some low level image processing tasks also some ISP chip may include some NN computing units.
 
-This is a personal collection of NN based methods for low-level image processing. It will be regularly updated. You are also welcome to contribute. Papers of significance are marked in **bold**. My comments are marked in *italic*.
+This is a personal collection of works using neural networks for low level image processing. The list will be regularly updated. You are welcome to contribute. Papers of significance are marked in **bold**. My comments are marked in *italic*.
 
 ## Table of Contents
 
@@ -32,17 +32,17 @@ This is a personal collection of NN based methods for low-level image processing
 
 ## Denoising
 
-  * [**Image denoising with multi-layer perceptrons**](https://arxiv.org/abs/1211.1544)
+  * [**Image denoising with multi-layer perceptrons**](https://arxiv.org/abs/1211.1544) (arXiv, 2012)
     * *This is the very first paper using NN to image denoising tasks.*
-  * [Can a Single Image Denoising Neural Network Handle All Levels of Gaussian Noise?](https://www.semanticscholar.org/paper/Can-a-Single-Image-Denoising-Neural-Network-Handle-Wang-Morel/c0387d184c2201eb1811094ba259380b5a83b6a4)
+  * [Can a Single Image Denoising Neural Network Handle All Levels of Gaussian Noise?](https://www.semanticscholar.org/paper/Can-a-Single-Image-Denoising-Neural-Network-Handle-Wang-Morel/c0387d184c2201eb1811094ba259380b5a83b6a4) (SPL, 2014, France)
     * *This paper proposal a way to apply NN on image denoising with different noise level of Gaussian noise.*
-  * [Learning Deep CNN Denoiser Prior for Image Restoration](https://arxiv.org/abs/1704.03264)
-  * [Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://ieeexplore.ieee.org/document/7839189/)
-  * [Dilated Deep Residual Network for Image Denoising](https://arxiv.org/abs/1708.05473) (arXiv, 2017, SIU)
   * [Deep convolutional architecture for natural image denoising](http://ieeexplore.ieee.org/document/7341021/) (WCSP, 2015, ZJU)
-  * [FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising](https://arxiv.org/abs/1710.04026) (arXiv, 2017, HKPU)
-  * [Image Restoration: From Sparse and Low-Rank Priors to Deep Priors](http://ieeexplore.ieee.org/document/8026108/) (IPM, 2017, HKPU) 
+  * [Learning Deep CNN Denoiser Prior for Image Restoration](https://arxiv.org/abs/1704.03264) (arXiv, 2017, HKPolyU)
+  * [Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising](http://ieeexplore.ieee.org/document/7839189/) (TIP, 2017, HKPolyU)
+  * [FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising](https://arxiv.org/abs/1710.04026) (arXiv, 2017, HKPolyU)
+  * [Image Restoration: From Sparse and Low-Rank Priors to Deep Priors](http://ieeexplore.ieee.org/document/8026108/) (IPM, 2017, HKPolyU) 
     * *This is a review paper.*
+  * [Dilated Deep Residual Network for Image Denoising](https://arxiv.org/abs/1708.05473) (arXiv, 2017, SIU)
   * [IDEAL: Image DEnoising AcceLerator](http://www.eecg.toronto.edu/~mostafam/files/IDEAL_Image_DEnoising_AcceLerator.pdf) (ACM, 2017, UToronto&Algolux) 
     * *A NN based approximations of BM3D on an NN accelerator*
 
@@ -56,20 +56,20 @@ This is a personal collection of NN based methods for low-level image processing
 
 ## Automatic adjustment
 
-From the publication, we can find that Adobe has done a lot of work pushing the usage of machine learning in low-level image processing especially automatic photo adjustment. 
+From the publications, we can find that Adobe has done a lot of work pushing the usage of machine learning in low-level image processing especially automatic photo adjustment. 
 
   * [Learning Photographic Global Tonal Adjustment with a Database of Input / Output Image Pairs](http://people.csail.mit.edu/vladb/photoadjust/) (CVPR, 2011, MIT&Adobe) 
     * *Adjustment personalization*
   * [Automatic Photo Adjustment Using Deep Neural Networks](https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust) (ACM, 2016, UIUC&Adobe&Microsoft) 
-    * *This technique is more accurate and supports local edits*
+    * *This technique is more accurate and supports local edits.*
 
 ## Superresolution
 
-Super-resolution is one of the areas has attracted a lot of attention in NN community and is very successful.
+Super-resolution is one of the areas that NN has been applied extensively and achieved great success.
 
   * [Deep Networks for Image Super-Resolution with Sparse Prior](http://ieeexplore.ieee.org/document/7410407/) (ICCV, 2015, UIUC)
   * [Image superresolution using deep convolutional networks](https://ieeexplore.ieee.org/document/7115171/) (TPAMI, 2015, HKUST)
-  * [Accurate image super-resolution using very deep convolutional networks](https://arxiv.org/abs/1511.04587) (CVPR, 2016, Seoul Univ)
+  * [Accurate image super-resolution using very deep convolutional networks](https://arxiv.org/abs/1511.04587) (CVPR, 2016, Seoul Univ.)
   * [**Real-time single image and video super-resolution using an efficient sub-pixel convolutional neural network**](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Real-Time_Single_Image_CVPR_2016_paper.pdf) (CVPR, 2016, ICL) 
     * *An order of magnitude faster than previous CNN-based methods*
   * [Image Super-Resolution via Deep Recursive Residual Network](http://cvlab.cse.msu.edu/project-super-resolution.html) (CVPR, 2017, MSU)
@@ -84,10 +84,11 @@ Super-resolution is one of the areas has attracted a lot of attention in NN comm
 
   * [Learning the image processing pipeline](https://arxiv.org/abs/1605.09336) (arXiv, 2016, Stanford)
 	  * *Propose to learn the filter parameters by ML*
+  * [Learning Adaptive Parameter Tuning for Image Processing](https://arxiv.org/abs/1610.09414) (arXiv, 2016, UCLA&Nvidia)	  
 
 ## Image quality evaluation
 
-  * [Deep Learning for Blind Image Quality Assessment](http://www.ivl.disco.unimib.it/activities/deep-image-quality/)
+  * [Deep Learning for Blind Image Quality Assessment](http://www.ivl.disco.unimib.it/activities/deep-image-quality/) (2017, Unimib)
 
 ## Others
 
