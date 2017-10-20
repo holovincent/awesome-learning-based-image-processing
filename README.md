@@ -7,15 +7,15 @@ This is a personal collection of NN based methods for low-level image processing
 ## Table of Contents
 
   * [Review and comments](#review-and-comments)
-  * [White balance]()
-  * [Denoising]()
-  * [Demosaicing]()
-  * [Superresolution]()
-  * [Automatic adjustment]()
-  * [Artefacts removal]()
-  * [Pipeline]()
-  * [Image quality evaluation]()
-  * [Others]()
+  * [White balance](#white-balance)
+  * [Denoising](#denoising)
+  * [Demosaicing](#demosaicing)
+  * [Superresolution](#superresolution)
+  * [Automatic adjustment](#automatic-adjustment)
+  * [Artefacts removal](#artefacts-removal)
+  * [Pipeline](#pipeline)
+  * [Image quality evaluation](#image-quality-evaluation)
+  * [Others](#others)
 
 ## Review and comments
 
