@@ -7,7 +7,7 @@ This is a personal collection of works using neural networks for low level image
 ## Table of Contents
 
   * [Review and comments](#review-and-comments)
-  * [White balance](#white-balance)
+  * [Color constancy](#color-constancy)
   * [Denoising](#denoising)
   * [Demosaicing](#demosaicing)
   * [Superresolution](#superresolution)
@@ -24,11 +24,17 @@ This is a personal collection of works using neural networks for low level image
   * [Deep learning for image/video processing](https://www.slideshare.net/yuhuang/deep-learning-for-image-video-processing)
     * *Dr. Huang Yu's summary of DL on image/video processing.*
 
-## White balance
+## Color constancy
 
   * [Deep Specialized Network for Illuminant Estimation](http://mmlab.ie.cuhk.edu.hk/projects/illuminant_estimation.html) (ECCV, 2016, CUHK)
   * [Single and Multiple Illuminant Estimation Using Convolutional Neural Networks](https://arxiv.org/abs/1508.00998) (TIP, 2017, Italy) 
     * *A three-stage method for illuminant estimation from RAW images*
+  * [Recurrent Color Constancy](http://openaccess.thecvf.com/content_ICCV_2017/papers/Qian_Recurrent_Color_Constancy_ICCV_2017_paper.pdf) (ICCV, 2017, TUT)
+    * *Recurrent network for temporal color constancy using multiple frames instead of single frame*
+  * [FC4: Fully Convolutional Color Constancy with Confidence-weighted Pooling](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_FC4_Fully_Convolutional_CVPR_2017_paper.pdf) (CVPR, 2017, THU)
+    * *CNN based method using image patches*
+   * [Natural Image Illuminant Estimation via Deep Non-negative Matrix Factorisation](http://digital-library.theiet.org/content/journals/10.1049/iet-ipr.2016.1058) (IET-IP, 2017, OceanUofChina)
+
 
 ## Denoising
 
