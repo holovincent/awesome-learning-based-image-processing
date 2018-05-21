@@ -102,3 +102,5 @@ Super-resolution is one of the areas that NN has been applied extensively and ac
     * *Operator approximation to accelerate image processing tasks*
   * [Learning Proximal Operators:Using Denoising Networks for Regularizing Inverse Imaging Problems](https://arxiv.org/pdf/1704.03488.pdf) (arXiv, 2017, TUM) 
     * *This paper proposes a way to use NN for the the general fidelity plus regularization optimization problem which may find applications in many problems.*
+  * [Learning to See in the Dark](http://vladlen.info/publications/learning-see-dark/) (CVPR,2018, UIUC&Intel)
+    * *This paper presented a very useful dark imaging dataset and an end-to-end training of a fully-convolutional network based on U-Net.*
