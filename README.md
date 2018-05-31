@@ -59,6 +59,7 @@ This is a personal collection of works using neural networks for low level image
   * [Deep Joint Demosaicking and Denoising](https://groups.csail.mit.edu/graphics/demosaicnet/) (Siggraph, 2016, MIT&Adobe) 
     * *This paper propose to use more difficult patches for the training.*
     * *Data and code are available on Github.*
+  * [Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks](https://arxiv.org/abs/1803.05215) (arXiv, 2018, Russia)
 
 ## Automatic adjustment
 
@@ -91,7 +92,7 @@ Super-resolution is one of the areas that NN has been applied extensively and ac
   * [Learning the image processing pipeline](https://arxiv.org/abs/1605.09336) (arXiv, 2016, Stanford)
 	  * *Propose to learn the filter parameters by ML*
   * [Learning Adaptive Parameter Tuning for Image Processing](https://arxiv.org/abs/1610.09414) (arXiv, 2016, UCLA&Nvidia)	  
-
+  * [Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks](https://openreview.net/forum?id=BJdZEGCIG) (arXiv, 2018, Technion)
 ## Image quality evaluation
 
   * [Deep Learning for Blind Image Quality Assessment](http://www.ivl.disco.unimib.it/activities/deep-image-quality/) (2017, Unimib)
