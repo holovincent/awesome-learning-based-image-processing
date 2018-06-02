@@ -93,6 +93,8 @@ Super-resolution is one of the areas that NN has been applied extensively and ac
 	  * *Propose to learn the filter parameters by ML*
   * [Learning Adaptive Parameter Tuning for Image Processing](https://arxiv.org/abs/1610.09414) (arXiv, 2016, UCLA&Nvidia)	  
   * [Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks](https://openreview.net/forum?id=BJdZEGCIG) (arXiv, 2018, Technion)
+  * [DeepISP: Learning End-to-End Image Processing Pipeline](https://openreview.net/forum?id=BJdZEGCIG)(arXiv, 2018, Technion)
+  
 ## Image quality evaluation
 
   * [Deep Learning for Blind Image Quality Assessment](http://www.ivl.disco.unimib.it/activities/deep-image-quality/) (2017, Unimib)
