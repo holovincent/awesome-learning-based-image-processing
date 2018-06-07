@@ -51,6 +51,7 @@ This is a personal collection of works using neural networks for low level image
   * [Dilated Deep Residual Network for Image Denoising](https://arxiv.org/abs/1708.05473) (arXiv, 2017, SIU)
   * [IDEAL: Image DEnoising AcceLerator](http://www.eecg.toronto.edu/~mostafam/files/IDEAL_Image_DEnoising_AcceLerator.pdf) (ACM, 2017, UToronto&Algolux) 
     * *A NN based approximations of BM3D on an NN accelerator*
+  * [Deep Burst Denoising](https://arxiv.org/abs/1712.05790) (arXiv, 2017, UCL&Facebook)
 
 ## Demosaicing
 
