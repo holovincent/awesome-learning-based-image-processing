@@ -1,8 +1,10 @@
 # Neural Networks for Low Level Image Processing
 
-Until recently, machine learning (ML) or neural networks (NN) are mainly used in high level vision tasks, such as image segmentation, object recognition and detection. Low level image processing such as denoising, demosaicing, white balance still mainly rely on signal processing based methods which uses expert designed filters. There are usually a long list of filters in the whole processing pipeline which is run on a dedicated ISP chip. In the past one or two years, there are two new trends. One trend is that more and more researchers propose to apply NN for low level image processing and achieved fascinating performance in term of image quality and processing speed. The other trend is that neural network chip becomes more and more popular at various mobile platform, such as the latest Apple A11 Bionic chip and Huawei Kirin 970 chip. I believe in the near further, NN based methods will play important roles at some low level image processing tasks also some ISP chip may include some NN computing units.
+Until recently, machine learning (ML) and neural network (NN) have been mainly used in high level vision tasks, such as image segmentation, classification and object detection. Low level image processing tasks such as denoising, demosaicing, white balance still mainly rely on signal processing based methods which need a lot of expert knowledge to desige the filters. There are usually a long list of filters in a complete image processing pipeline running on a dedicated image signal processor(ISP). Designing and optimizing a list of filters require a lot of effort. Apple has a patent with more than 500 pages covering only a part of the full ISP pipeline! 
 
-This is a personal collection of works using neural networks for low level image processing. The list will be regularly updated. You are welcome to contribute. Papers of significance are marked in **bold**. My comments are marked in *italic*.
+In the past few years, two new developments are changing the image processing field. One trend is that more and more neural network based methods have been proposed to handle a part or the whole image processing pipeline and achieved fascinating performance in term of image quality and processing speed. The other trend is that neural network chip becomes more and more popular at various mobile platform, such as the latest Apple A11 Bionic chip and Huawei Kirin 970 chip. I believe in the near future, neural network based methods will play important roles at low level image processing tasks, and neural network computing units will become an integrated part of the image signal processor.
+
+This is a personal collection of research works using neural network for low level image processing. I will try to keep it up to date. You are welcome to contribute to this list. Papers of significance are marked in **bold**. My comments are marked in *italic*.
 
 ## Table of Contents
 
@@ -20,7 +22,7 @@ This is a personal collection of works using neural networks for low level image
 ## Review and comments
 
   * [Deep, Deep Trouble](https://sinews.siam.org/Details-Page/deep-deep-trouble)
-    * *This is an interesting comments from Michael Elad about the impact of Deep Learning on image processing, mathematics and humanity.*
+    * *This is an interesting comment made by Michael Elad about the impact of Deep Learning on image processing, mathematics and humanity.*
   * [Deep learning for image/video processing](https://www.slideshare.net/yuhuang/deep-learning-for-image-video-processing)
     * *Dr. Huang Yu's summary of DL on image/video processing.*
 
