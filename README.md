@@ -1,4 +1,4 @@
-# Neural Networks for Low Level Image Processing
+# awesome-learning-based-image-processing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Until recently, machine learning (ML) and neural network (NN) have been mainly used in high level vision tasks, such as image segmentation, classification and object detection. Low level image processing tasks such as denoising, demosaicing, white balance still mainly rely on signal processing based methods which need a lot of expert knowledge to desige the filters. There are usually a long list of filters in a complete image processing pipeline running on a dedicated image signal processor(ISP). Designing and optimizing a list of filters require a lot of effort. Apple has a patent with more than 500 pages covering only a part of the full ISP pipeline! 
 
